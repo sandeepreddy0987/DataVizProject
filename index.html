@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Update a choropleth layer by zoom level</title>
+  
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <div id='title'>
+    <h3 font: 100px> CANADA COVID-19 STATISTICS</h3>
+  </div>
+
+</head>
+
+<body>
+
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="data.json"></script>
+
+  <div id='button-display'>
+    <button class="button button1" onclick="show('Quebec')">Quebec</button>
+    <button class="button button2" onclick="show('Atlantic')">Atlantic</button>
+    <button class="button button3" onclick="show('Prairies')">Prairies</button>
+    <button class="button button4" onclick="show('BC_YU')">BC & Yukon</button>
+    <button class="button button5" onclick="show('ON_NU')">ON & Nunavat</button>
+
+  </div>
+
+  <div id="stats">
+    <h1>Total Cases</h1>
+    <div id='data-display'>
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="4" fill="white" />
+        Sorry, your browser does not support inline SVG.
+        <text fill="#000000" font-size="18" font-family="Verdana" text-align="center" x="20" y="60">37450</text>
+        <title>Total confirmed cases in Canada</title>
+      </svg>
+      <p>Confirmed</p>
+    </div>
+    <div id='data-display3'>
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="4" fill="white" />
+        Sorry, your browser does not support inline SVG.
+        <text fill="#000000" font-size="18" font-family="Verdana" text-align="center" x="20" y="60">20407</text>
+        <title>Cases with UNKNOWN STATUS</title>
+      </svg>
+      <p>Not Stated</p>
+
+    </div>
+    <div id='data-display1'>
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+        Sorry, your browser does not support inline SVG.
+        <text fill="#000000" font-size="18" font-family="Verdana" text-align="center" x="18" y="60">13951</text>
+        <title>Total Recovered cases in Canada</title>
+      </svg>
+      <p>Recovered</p>
+    </div>
+    <div id='data-display2'>
+
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="white" />
+        Sorry, your browser does not support inline SVG.
+        <text fill="#000000" font-size="18" font-family="Verdana" text-align="center" x="25" y="60"> 3092</text>
+        <title>Total Death cases in Canada</title>
+      </svg>
+      <p>Deaths</p>
+    </div>
+
+  </div>
+  <div id='chart_display'>
+
+  </div>
+  <div id='barchart_display'>
+</div>
+  <div id='pie_chart'>
+
+  </div>
+  <div id='pie_chart1'>
+
+  </div>
+
+  <div id='map'></div>
+
+  <div id='weekwise_chart' >
+    <p class="label"></p>
+  </div>
+  <div id='data-display4'>
+    <p style="color:#008080"><strong>Public Health Response </strong></p>
+    <svg  id ='displayhover' width="300" height="250">
+      <rect class='circlecolor'  x="60" y="40" rx="20" ry="20" width="150" height="150" stroke="red" opacity ='0.95' stroke-width="4" fill="" />
+  
+      <text class='textvalue' fill="#ffffff" font-size="12" font-family="Verdana" text-align="center" x="85" y="120"> </text>
+      <title>ResponseRate=RecoveryRate- DeathRate</title>
+    </svg>
+    
+  </div>
+
+
+
+
+  <div id="state-legend" class="legend">
+    <h4>Number of Confirmed Cases</h4>
+    <div><span style="background-color: #a63603"></span> >16,000</div>
+    <div><span style="background-color: #e6550d"></span>8001 - 16,000</div>
+    <div><span style="background-color: #fd8d3c"></span>1000 - 8000</div>
+    <div><span style="background-color: #fad9bd"></span>Below 1000</div>
+
+  </div>
+  <script src='piechart.js'></script>
+  <script src='barchart1.js'></script>
+  <script src='barchart.js'></script>
+  <script src='piechart2.js'></script>
+  <script src='multilinechart.js'></script>
+  <script src='map.js'></script>
+  <script>
+    function show(region) {
+      showbarchart(region);
+      showbarchart1(region);
+      showpiechart(region);
+      showmultilinechart(region);
+      showpiechart1(region);
+
+    }
+    window.onload=function()
+ {
+      $(".button1").css("color","black");
+ }
+  </script>
+</body>
+
+</html>

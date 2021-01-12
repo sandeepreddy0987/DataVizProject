@@ -1,0 +1,569 @@
+{
+    "Quebec": {
+        "name": "Quebec",
+        "coord": "[-78.019173,62.59193]",
+        "cases": 19895,
+        "gender": {
+            "Male": 7891,
+            "FeMale": 11969
+           
+        },
+        "transmission": {
+            "Domestic acquisition": 18400,
+            "International travel": 581
+            
+        },
+        "death": {
+            "Yes": 1933,
+            "No": 6006,
+            "Not stated": 11956
+        },
+        "ageGroup": {
+            "0-19yrs": 833,
+            "20-29yrs": 2346,
+            "30-39yrs": 2541,
+            "40-49yrs": 3015,
+            "50-59yrs": 2998,
+            "60-69yrs": 1880,
+            "70-79yrs": 1714,
+            "80+yrs": 4542
+            
+        },
+        "hospitalizationStatus": {
+            "Hospitalized and in Intensive care unit": 333,
+            "Hospitalized, but not in intensive care unit": 1522,
+            "Not hospitalized": 9841,
+            "Not Stated": 8199
+        },
+        "occupation": {
+            "HCW": 4248,
+            "S/D care": 1977,
+            "LTCR": 0,
+            "Other": 0
+            
+        },
+        "weeks": {
+            "8": {
+                "totalCases": 23,
+                "recovered": 21,
+                "deaths": 0
+            },
+            "9": {
+                "totalCases": 53,
+                "recovered": 34,
+                "deaths": 0
+            },
+            "10": {
+                "totalCases": 280,
+                "recovered": 179,
+                "deaths": 4
+            },
+            "11": {
+                "totalCases": 1098,
+                "recovered": 624,
+                "deaths": 27
+            },
+            "12": {
+                "totalCases": 1228,
+                "recovered": 691,
+                "deaths": 55
+            },
+            "13": {
+                "totalCases": 1386,
+                "recovered": 659,
+                "deaths": 144
+            },
+            "14": {
+                "totalCases": 1714,
+                "recovered": 675,
+                "deaths": 221
+            },
+            "15": {
+                "totalCases": 2104,
+                "recovered": 706,
+                "deaths": 264
+            },
+            "16": {
+                "totalCases": 2080,
+                "recovered": 713,
+                "deaths": 240
+            },
+            "17": {
+                "totalCases": 2150,
+                "recovered": 590,
+                "deaths": 204
+            },
+            "18": {
+                "totalCases": 1865,
+                "recovered": 528,
+                "deaths": 145
+            },
+            "19": {
+                "totalCases": 1747,
+                "recovered": 369,
+                "deaths": 99
+            },
+            "20": {
+                "totalCases": 1315,
+                "recovered": 43,
+                "deaths": 47
+            },
+            "21": {
+                "totalCases": 671,
+                "recovered": 11,
+                "deaths": 10
+            }
+        },
+        "recovered": {
+            "Yes": 6006,
+            "No": 1933,
+            "Not Stated": 11956
+        }
+    },
+    "Prairies": {
+        "name": "Prairies",
+        "coord": "[-110.394402,78.752213]",
+        "cases": 3098,
+        "gender": {
+            "Male": 1645,
+            "FeMale": 1452
+        },
+        "transmission": {
+            "Domestic acquisition": 2829,
+            "International travel": 176
+            
+            
+        },
+        "death": {
+            "Yes": 66,
+            "No": 435,
+            "Not stated": 2596
+            
+        },
+        "ageGroup": {
+            "0-19yrs": 350,
+            "20-29yrs": 444,
+            "30-39yrs": 617,
+            "40-49yrs": 696,
+            "50-59yrs": 458,
+            "60-69yrs": 260,
+            "70-79yrs": 123,
+            "80+yrs": 145
+            
+            
+        },
+        "hospitalizationStatus": {
+            "Hospitalized and in Intensive care unit": 13,
+            "Hospitalized, but not in intensive care unit": 157,
+            "Not hospitalized": 2803,
+            "Not Stated": 124
+            
+        },
+        "occupation": {
+            "HCW": 246,
+            "S/D care": 18,
+            "LTCR": 139,
+            "Other": 1514
+            
+            
+        },
+        "weeks": {
+            "9": {
+                "totalCases": 22,
+                "recovered": 13,
+                "deaths": 0
+            },
+            "10": {
+                "totalCases": 95,
+                "recovered": 44,
+                "deaths": 1
+            },
+            "11": {
+                "totalCases": 263,
+                "recovered": 108,
+                "deaths": 3
+            },
+            "12": {
+                "totalCases": 188,
+                "recovered": 66,
+                "deaths": 13
+            },
+            "13": {
+                "totalCases": 145,
+                "recovered": 33,
+                "deaths": 3
+            },
+            "14": {
+                "totalCases": 374,
+                "recovered": 15,
+                "deaths": 6
+            },
+            "15": {
+                "totalCases": 615,
+                "recovered": 15,
+                "deaths": 12
+            },
+            "16": {
+                "totalCases": 467,
+                "recovered": 23,
+                "deaths": 10
+            },
+            "17": {
+                "totalCases": 376,
+                "recovered": 38,
+                "deaths": 6
+            },
+            "18": {
+                "totalCases": 190,
+                "recovered": 29,
+                "deaths": 1
+            },
+            "19": {
+                "totalCases": 170,
+                "recovered": 16,
+                "deaths": 0
+            },
+            "20": {
+                "totalCases": 82,
+                "recovered": 5,
+                "deaths": 0
+            },
+            "21": {
+                "totalCases": 45,
+                "recovered": 0,
+                "deaths": 0
+            }
+        },
+        "recovered": {
+            "Yes": 435,
+            "No": 66,
+            "Not Stated": 2596,
+            "undefined": null
+        }
+    },
+    "ON_NU": {
+        "name": "ON_NU",
+        "cases": 12942,
+        "gender": {
+            "Male": 5747,
+            "FeMale": 7087
+            
+        },
+        "transmission": {
+            "Domestic acquisition": 8172,
+            "International travel": 691
+            
+        },
+        "death": {
+            "Yes": 1050,
+            "No": 6658,
+            "Not stated": 5234
+        },
+        "ageGroup": {
+            "0-19yrs": 488,
+            "20-29yrs": 1801,
+            "30-39yrs": 1722,
+            "40-49yrs": 1825,
+            "50-59yrs": 2166,
+            "60-69yrs": 1495,
+            "70-79yrs": 1036,
+            "80+yrs": 2384
+            
+        },
+        "hospitalizationStatus": {
+            "Hospitalized and in Intensive care unit": 363,
+            "Hospitalized, but not in intensive care unit": 1266,
+            "Not hospitalized": 4877,
+            "Not Stated": 6436
+        },
+        "occupation": {
+            "HCW": 2394,
+            "S/D care": 0,
+            "LTCR": 0,
+            "Other": 1
+           
+        },
+        "weeks": {
+            "8": {
+                "totalCases": 8,
+                "recovered": 7,
+                "deaths": 0
+            },
+            "9": {
+                "totalCases": 65,
+                "recovered": 56,
+                "deaths": 3
+            },
+            "10": {
+                "totalCases": 305,
+                "recovered": 282,
+                "deaths": 5
+            },
+            "11": {
+                "totalCases": 777,
+                "recovered": 660,
+                "deaths": 45
+            },
+            "12": {
+                "totalCases": 866,
+                "recovered": 617,
+                "deaths": 75
+            },
+            "13": {
+                "totalCases": 1157,
+                "recovered": 687,
+                "deaths": 172
+            },
+            "14": {
+                "totalCases": 1393,
+                "recovered": 845,
+                "deaths": 170
+            },
+            "15": {
+                "totalCases": 1812,
+                "recovered": 882,
+                "deaths": 211
+            },
+            "16": {
+                "totalCases": 1311,
+                "recovered": 692,
+                "deaths": 145
+            },
+            "17": {
+                "totalCases": 1160,
+                "recovered": 636,
+                "deaths": 81
+            },
+            "18": {
+                "totalCases": 884,
+                "recovered": 427,
+                "deaths": 47
+            },
+            "19": {
+                "totalCases": 1050,
+                "recovered": 441,
+                "deaths": 43
+            },
+            "20": {
+                "totalCases": 980,
+                "recovered": 353,
+                "deaths": 25
+            },
+            "21": {
+                "totalCases": 897,
+                "recovered": 16,
+                "deaths": 7
+            }
+        },
+        "recovered": {
+            "Yes": 6658,
+            "No": 1050,
+            "Not Stated": 5234
+        }
+    },
+    "Atlantic": {
+        "name": "Atlantic",
+        "coord": "[-64.482773,47.91777]",
+        "cases": 647,
+        "gender": {
+            "Male": 291,
+            "FeMale": 356
+        },
+        "transmission": {
+            "Domestic acquisition": 558,
+            "International travel": 89
+
+        },
+        "death": {
+            "Yes": 23,
+            "No": 615,
+            "Not stated": 9
+        },
+        "ageGroup": {
+            "0-19yrs": 54,
+            "20-29yrs": 73,
+            "30-39yrs": 74,
+            "40-49yrs": 86,
+            "50-59yrs": 100,
+            "60-69yrs": 105,
+            "70-79yrs": 72,
+            "80+yrs": 81
+            
+        },
+        "hospitalizationStatus": {
+            "Hospitalized and in Intensive care unit": 5,
+            "Hospitalized, but not in intensive care unit": 20,
+            "Not hospitalized": 609,
+            "Not Stated": 13
+        },
+        "occupation": {
+            "HCW": 95,
+            "S/D care": 11,
+            "LTCR": 109,
+            "Other": 67
+            
+        },
+        "weeks": {
+            "9": {
+                "totalCases": 1,
+                "recovered": 1,
+                "deaths": 0
+            },
+            "10": {
+                "totalCases": 14,
+                "recovered": 14,
+                "deaths": 0
+            },
+            "11": {
+                "totalCases": 98,
+                "recovered": 97,
+                "deaths": 0
+            },
+            "12": {
+                "totalCases": 97,
+                "recovered": 97,
+                "deaths": 0
+            },
+            "13": {
+                "totalCases": 82,
+                "recovered": 82,
+                "deaths": 0
+            },
+            "14": {
+                "totalCases": 79,
+                "recovered": 76,
+                "deaths": 3
+            },
+            "15": {
+                "totalCases": 98,
+                "recovered": 89,
+                "deaths": 8
+            },
+            "16": {
+                "totalCases": 71,
+                "recovered": 64,
+                "deaths": 5
+            },
+            "17": {
+                "totalCases": 30,
+                "recovered": 27,
+                "deaths": 0
+            },
+            "18": {
+                "totalCases": 9,
+                "recovered": 9,
+                "deaths": 0
+            },
+            "19": {
+                "totalCases": 3,
+                "recovered": 2,
+                "deaths": 0
+            }
+        },
+        "recovered": {
+            "Yes": 615,
+            "No": 25,
+            "Not Stated": 7
+        }
+    },
+    "BC_YU": {
+        "name": "BC_YU",
+        "cases": 868,
+        "gender": {
+            "Male": 401,
+            "FeMale": 464
+            
+        },
+        "transmission": {
+            "Domestic acquisition": 591,
+            "International travel": 120
+            
+        },
+        "death": {
+            "Yes": 20,
+            "No": 237,
+            "Not stated": 611
+        },
+        "ageGroup": {
+            "0-19yrs": 19,
+            "20-29yrs": 91,
+            "30-39yrs": 146,
+            "40-49yrs": 135,
+            "50-59yrs": 166,
+            "60-69yrs": 122,
+            "70-79yrs": 78,
+            "80+yrs": 101
+            
+        },
+        "hospitalizationStatus": {
+            "Hospitalized and in Intensive care unit": 50,
+            "Hospitalized, but not in intensive care unit": 102,
+            "Not hospitalized": 536
+            
+        },
+        "occupation": {
+            "HCW": 213,
+            "S/D care": 8,
+            "LTCR": 52,
+            "Other": 0
+            
+        },
+        "weeks": {
+            "8": {
+                "totalCases": 13,
+                "recovered": 2,
+                "deaths": 0
+            },
+            "9": {
+                "totalCases": 29,
+                "recovered": 10,
+                "deaths": 0
+            },
+            "10": {
+                "totalCases": 91,
+                "recovered": 36,
+                "deaths": 3
+            },
+            "11": {
+                "totalCases": 112,
+                "recovered": 49,
+                "deaths": 0
+            },
+            "12": {
+                "totalCases": 70,
+                "recovered": 23,
+                "deaths": 0
+            },
+            "13": {
+                "totalCases": 39,
+                "recovered": 21,
+                "deaths": 0
+            },
+            "14": {
+                "totalCases": 27,
+                "recovered": 6,
+                "deaths": 1
+            },
+            "15": {
+                "totalCases": 28,
+                "recovered": 15,
+                "deaths": 0
+            },
+            "16": {
+                "totalCases": 15,
+                "recovered": 5,
+                "deaths": 0
+            },
+            "17": {
+                "totalCases": 12,
+                "recovered": 0,
+                "deaths": 0
+            }
+        },
+        "recovered": {
+            "Yes": 237,
+            "No": 20,
+            "Not Stated": 611
+        }
+    }
+}
